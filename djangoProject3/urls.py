@@ -16,10 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from djangoProject3.views import home
-from Healthbooster.views import search_form,search
+from Healthbooster.views import search_form
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',home),
     path('search_form/', search_form)
 ]
