@@ -8,6 +8,6 @@ print(region)
 print()
 
 hospital = pd.read_csv(r'C:\Users\Osman\Desktop\hastane.txt', sep=",")
-print(hospital)
+print(hospital.City)
 
 
